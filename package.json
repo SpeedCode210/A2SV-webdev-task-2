@@ -1,0 +1,19 @@
+{
+  "name": "a2sv-webdev-task-2",
+  "version": "1.0.0",
+  "main": "todo.js",
+  "scripts": {
+    "build": "tsc todo.ts",
+    "start": "node todo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.9.2"
+  },
+  "dependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "prompt-sync": "^4.2.0"
+  }
+}
